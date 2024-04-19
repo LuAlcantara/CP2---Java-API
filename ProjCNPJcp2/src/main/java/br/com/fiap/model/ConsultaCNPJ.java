@@ -14,30 +14,10 @@ public class ConsultaCNPJ {
 	private String uf;
 	private String municipio;
 	private String ddd_telefone_1;
-	private int capital_social;
+	private String capital_social;
 	
 	public ConsultaCNPJ() {
 		super();
-	}
-
-	public ConsultaCNPJ(String cnpj, String razao_social, String nome_fantasia, String descricao_situacao_cadastral,
-			String descricao_tipo_de_logradouro, String logradouro, String numero, String complemento, String bairro,
-			int cep, String uf, String municipio, String ddd_telefone_1, int capital_social) {
-		super();
-		this.cnpj = cnpj;
-		this.razao_social = razao_social;
-		this.nome_fantasia = nome_fantasia;
-		this.descricao_situacao_cadastral = descricao_situacao_cadastral;
-		this.descricao_tipo_de_logradouro = descricao_tipo_de_logradouro;
-		this.logradouro = logradouro;
-		this.numero = numero;
-		this.complemento = complemento;
-		this.bairro = bairro;
-		this.cep = cep;
-		this.uf = uf;
-		this.municipio = municipio;
-		this.ddd_telefone_1 = ddd_telefone_1;
-		this.capital_social = capital_social;
 	}
 
 	public String getCnpj() {
@@ -144,14 +124,14 @@ public class ConsultaCNPJ {
 		this.ddd_telefone_1 = ddd_telefone_1;
 	}
 
-	public int getCapital_social() {
+	public String getCapital_social() {
 		return capital_social;
 	}
 
-	public void setCapital_social(int capital_social) {
+	public void setCapital_social(String capital_social) {
 		this.capital_social = capital_social;
 	}
-	
+
 	
 
 }
